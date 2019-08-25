@@ -2,12 +2,10 @@
   "name": "mylibrary",
   "version": "0.0.0",
   "description": "",
-
   "source": "src/mylibrary.ts",
   "main": "dist/mylibrary.js",
   "module": "dist/mylibrary.mjs",
   "unpkg": "dist/mylibrary.umd.js",
-
   "scripts": {
     "build": "microbundle --no-sourcemap",
     "dev": "microbundle watch --no-sourcemap"
@@ -23,6 +21,6 @@
   },
   "homepage": "https://github.com/gnlow/mylibrary#readme",
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.12.0-next.6"
   }
 }
